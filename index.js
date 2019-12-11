@@ -1,36 +1,25 @@
-class Cat {
-  constructor(name, sex) {
-    this.name = name;
-    this.sex =  sex;
+
+
+class scooter {
+  constructor(year, color, model) {
+    this.year = year;
+    this.color =  color;
+    this.model = model;
   }
 
-  speak() {
-    return `${this.name} says meow!`
+
+
+class driver {
+  constructor(name, age, experiance) {
+    this.name = name;
+    this.age =  age;
+    this.experiance = experiance;
   }
 }
 
-class Dog {
-  constructor(name, sex) {
-    this.name = name;
-    this.sex =  sex;
-  }
-
-  speak() {
-    return `${this.name} says woof!`
-  }
+class PickupLocation{
+  constructor(address, city){
+  this.address = address;
+  this.city = city;
 }
-
-class Bird {
-  constructor(name, sex) {
-    this.name = name;
-    this.sex =  sex;
-  }
-
-  speak() {
-    if (this.sex == "male") {
-      return `It's me! ${this.name}, the parrot!`
-    } else {
-      return `${this.name} says squawk!`
-    }
-  }
 }
